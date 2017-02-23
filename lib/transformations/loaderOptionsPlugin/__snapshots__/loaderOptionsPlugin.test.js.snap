@@ -1,12 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`loaderOptionsPlugin transforms correctly 1`] = `
 "module.exports = {
     debug: true,
     plugins: [
         new webpack.optimize.UglifyJsPlugin(),
         new webpack.optimize.LoaderOptionsPlugin({
-            foo: \'bar\',
-            \'debug\': true,
-            \'minimize\': true
+            foo: 'bar',
+            'debug': true,
+            'minimize': true
         })
     ]
 }
